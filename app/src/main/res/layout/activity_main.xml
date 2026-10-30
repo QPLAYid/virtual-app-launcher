@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111827"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Virtual App Launcher"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Package Name Aplikasi"
+            android:textColor="#D1D5DB"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/packageInput"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="16dp"
+            android:background="#1F2937"
+            android:hint="contoh: com.whatsapp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9CA3AF" />
+
+        <Button
+            android:id="@+id/btnLaunch"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#2563EB"
+            android:text="Launch Aplikasi"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnOpenPlayStore"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#10B981"
+            android:text="Buka Play Store"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="URL Website"
+            android:textColor="#D1D5DB"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/urlInput"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="16dp"
+            android:background="#1F2937"
+            android:hint="contoh: google.com"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9CA3AF" />
+
+        <Button
+            android:id="@+id/btnOpenUrl"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:backgroundTint="#F59E0B"
+            android:text="Buka Website"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,35 +1,17 @@
-# Gradle files
-.gradle/
-build/
-.kotlin/
+# This .gitignore is a standard Android project ignore list.
+# It intentionally excludes generated files and local environment config.
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
 .externalNativeBuild/
 .cxx/
-*.aab
+*.class
 *.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+*.ap_
+*.dex
+*.log
